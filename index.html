@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myFirstApp">
   <head>
     <meta charset="utf-8">
-    <title>Testing Atom & Git</title>
+    <script src="angular.js"></script>
+    <script src="app.js"> </script>
+    <title>My First Angular App</title>
   </head>
   <body>
-    Testing Atom & Git
+    <div ng-controller="myFirstController">
+{{sayHello()}}
+    </div>
   </body>
 </html>
